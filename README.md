@@ -1,3 +1,3 @@
 # 💬 Chatbot Công ty luật Hoa Phượng
 
-Chương trình chatbot được tạo ra bởi luật sư Nguyễn Anh Vũ (HPL)
+Chương trình trợ lý luật sư ảo được tạo ra bởi luật sư Nguyễn Anh Vũ - Công ty luật Hoa Phượng (HPL)
