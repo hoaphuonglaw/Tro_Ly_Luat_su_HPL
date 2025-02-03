@@ -1,0 +1,41 @@
+import streamlit as st
+
+# CSS để thay đổi logo
+hide_streamlit_style = """
+            <style>
+            [data-testid="stSidebarNav"] {
+                display: none;
+            }
+            header .stToolbar {
+                right: 2rem;
+            }
+            header .site-title {
+                display: none;
+            }
+            header:after {
+                content: 'CÔNG TY LUẬT HOA PHƯỢNG';
+                font-size: 20px;
+                color: black;
+                position: relative;
+                right: -1rem;
+                top: 2rem;
+            }
+            header .title {
+                display: none;
+            }
+            header {
+                background-image: url("https://www.facebook.com/photo/?fbid=657880160983301&set=pb.100063555461241.-2207520000");
+                background-size: contain;
+                width: 100px;
+                height: 60px;
+                background-repeat: no-repeat;
+                position: relative;
+                top: -15px;
+            }
+            </style>
+            """
+
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+# Nội dung chính của ứng dụng
+st.title('Trợ lý luật sư ảo của Công ty luật Hoa Phượng')
